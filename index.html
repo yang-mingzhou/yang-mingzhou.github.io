@@ -118,7 +118,7 @@
     <ul>
     <li> [05/2024] Recieved Doctoral Dissertation Fellowship 2024-2025.</li>
     <li> [04/2023] Best Blue Sky Paper Award (runner-up) in SDM'23.</li>
-    <a href="javascript:toggleblock(&#39;news&#39;)">---- show more ----</a>
+<a href="#" onclick="toggleblock('news'); return false;">---- show more ----</a>
     <div id="news" style="display:none">
     </div>
     <!-- <li> Undergrad <a href="#JPM15">paper</a> related to predicting <a href="http://www.huffingtonpost.co.uk/2015/02/23/microsoft-oscar-predictio_n_6735122.html">Oscars</a> published at <a href="http://ubplj.org/index.php/jpm/article/view/1048">JPM</a>. See <a href="#oscarPred">live predictions</a>.</li> -->
@@ -169,8 +169,8 @@
 
     <div class="paper" id="glcdm">
     <a href="https://doi.org/10.1145/3748636.3762749">paper</a> |
-    <a href="javascript:toggleblock('glcdm_abs')">abstract</a> |
-    <a shape="rect" href="javascript:togglebib('glcdm')" class="togglebib">bibtex</a> 
+    <a href="#" onclick="toggleblock('glcdm_abs'); return false;">abstract</a> |
+    <a shape="rect" href="#" onclick="togglebib('glcdm'); return false;" class="togglebib">bibtex</a> 
 
     <p align="justify"> <i style="display: none;" id="glcdm_abs">Given a set of historical vehicle trajectories and their descriptive attributes, the goal is to train a generative model that produces synthetic trajectories with high physical fidelity. Here, physical fidelity is defined as fidelity to both geometric and dynamic properties of trajectories. The problem is important since trajectory generation can contribute to data augmentation for many traffic-related applications, such as popular route discovery and traffic light control. The key challenge of this problem lies in achieving high physical fidelity under coarse geospatial attributes (e.g., origin-destination pairs) that lack fine-grained details. Current methods, which mostly focus on geometric properties, have limited utility in domain-specific scenarios due to their neglect of trajectory dynamics. To address these limitations, we propose GCDM, a novel Geo-Lucid Conditional Diffusion Model framework that integrates road map attributes into the generative process through spatially hierarchical generation and map-informed latent variables. Experiments on real-world vehicle trajectory datasets show that GCDM outperforms state-of-the-art methods in geo-distribution similarity and dynamics fidelity.</i></p>
 
@@ -198,8 +198,8 @@
 
     <div class="paper" id="csc">
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S1574119225000082">paper</a> |
-    <a href="javascript:toggleblock('csc_abs')">abstract</a> |
-    <a shape="rect" href="javascript:togglebib('csc')" class="togglebib">bibtex</a> 
+    <a href="#" onclick="toggleblock('csc_abs'); return false;">abstract</a> |
+    <a shape="rect" href="#" onclick="togglebib('csc'); return false;" class="togglebib">bibtex</a> 
 
     <p align="justify"> <i style="display: none;" id="csc_abs">Climate change is a societal grand challenge and many nations have signed the Paris Agreement (2015) aiming for net-zero emissions. The computing community has an opportunity to contribute significantly to addressing climate change across all its dimensions, including understanding, resilience, mitigation, and adaptation. Traditional computing methods face major challenges. For example, machine learning is overwhelmed due to non-stationarity (e.g., climate change), data paucity (e.g., rare climate events), the high cost of ground truth collection, and the need to observe natural laws (e.g., conservation of mass). This paper shares a perspective on a range of climate-smart computing challenges and opportunities based on multi-decade scholarly activities and acknowledges the broader societal debate on climate solutions. Moreover, it envisions advancements in computing methods specifically designed to tackle the challenges posed by climate change. It calls for a broad array of computer science strategies and innovations to be developed to address the multifaceted challenges of climate change.</i></p>
 
@@ -228,8 +228,8 @@
 
     <div class="paper" id="mlbor">
     <a href="https://dl.acm.org/doi/pdf/10.1145/3681772.3698215">paper</a> |
-    <a href="javascript:toggleblock('mlbor_abs')">abstract</a> |
-    <a shape="rect" href="javascript:togglebib('mlbor')" class="togglebib">bibtex</a> 
+    <a href="#" onclick="toggleblock('mlbor_abs'); return false;">abstract</a> |
+    <a shape="rect" href="#" onclick="togglebib('mlbor'); return false;" class="togglebib">bibtex</a> 
 
     <p align="justify"> <i style="display: none;" id="mlbor_abs">Given an origin, a destination, and a directed graph in which each edge is associated with a pair of non-negative costs, the bi-objective routing problem aims to find the set of all Pareto-optimal paths. This problem is societally important due to several applications, such as route finding that considers both vehicle travel time and energy consumption. The problem is challenging due to the potentially large number of candidate Pareto-optimal paths to be enumerated during the search, making existing compute-on-demand methods inefficient due to their high time complexity. One way forward is the introduction of precomputation algorithms. However, the large size of the Pareto-optimal set makes it infeasible to precompute and store all-pair solutions. In addition, generalizing traditional single-objective hierarchical algorithms to bi-objective cases is nontrivial because of the non-comparability of candidate paths and the need to accommodate multiple Pareto-optimal paths for each node pair. To overcome these limitations, we propose Multi-Level Bi-Objective Routing (MBOR) algorithms using three novel ideas: boundary multigraph representation, Pareto frontier encoding, and two-dimensional cost-interval based pruning. Computational experiments using real road network data demonstrate that the proposed methods significantly outperform baseline methods in terms of online runtime and precomputation time.</i></p>
 
@@ -258,8 +258,8 @@
 
     <div class="paper" id="intexpl">
     <a href="https://epubs.siam.org/doi/pdf/10.1137/1.9781611977653.ch94">paper</a> |
-    <a href="javascript:toggleblock(&#39;intexpl_abs&#39;)">abstract</a> |
-    <a shape="rect" href="javascript:togglebib(&#39;intexpl&#39;)" class="togglebib">bibtex</a> 
+    <a href="#" onclick="toggleblock('intexpl_abs'); return false;">abstract</a> |
+    <a shape="rect" href="#" onclick="togglebib('intexpl'); return false;" class="togglebib">bibtex</a> 
 
     <p align="justify"> <i style="display: none;" id="intexpl_abs">The eco-toll estimation problem quantifies the expected environmental cost (e.g., energy consumption, exhaust emissions) for a vehicle to travel along a path. This problem is important for societal applications such as eco-routing, which aims to find paths with the lowest exhaust emissions or energy need. The challenges of this problem are threefold: (1) the dependence of a vehicle's eco-toll on its physical parameters; (2) the lack of access to data with eco-toll information; and (3) the influence of contextual information (i.e. the connections of adjacent segments in the path) on the eco-toll of road segments. Prior work on eco-toll estimation has mostly relied on pure data-driven approaches and has high estimation errors given the limited training data. To address these limitations, we propose a novel Eco-toll estimation Physics-informed Neural Network framework (Eco-PiNN) using three novel ideas, namely, (1) a physics-informed decoder that integrates the physical laws governing vehicle dynamics into the network, (2) an attention-based contextual information encoder, and (3) a physics-informed regularization to reduce overfitting. Experiments on real-world heavy-duty truck data show that the proposed method can greatly improve the accuracy of eco-toll estimation compared with state-of-the-art methods.</i></p>
 
@@ -291,8 +291,8 @@ SDM 2023, Best Blue Sky Paper Award (runner-up)
 
 <div class="paper" id="slottta">
 <a href="https://epubs.siam.org/doi/epdf/10.1137/1.9781611977653.ch108">paper</a> |
-<a href="javascript:toggleblock(&#39;slottta_abs&#39;)">abstract</a> |
-<a shape="rect" href="javascript:togglebib(&#39;slottta&#39;)" class="togglebib">bibtex</a> 
+<a href="#" onclick="toggleblock('slottta_abs'); return false;">abstract</a> |
+<a shape="rect" href="#" onclick="togglebib('slottta'); return false;" class="togglebib">bibtex</a> 
 
 <p align="justify"> <i style="display: none;" id="slottta_abs">Society must achieve net zero carbon emissions to mitigate anthropogenic climate change and preserve a livable planet. Reducing transportation emissions is an important component to achieve net zero because such emissions account for a quarter of global carbon released into the environment. Driven by increasingly available transportation big data and enhanced computational speed, data mining techniques have become powerful tools to achieve transportation decarbonization. This paper describes existing gaps in transportation decarbonization research where data mining can help address problems related to medium and heavy vehicle electrification, electric micromobility safety, and analysis of alternative fuel-powered and plug-in hybrid electric vehicles. Our recommendations encompass open research problems, opportunities for data mining applications, and examples of areas where advancements in data mining techniques are needed. We encourage the data mining community to explore these challenges and opportunities to help achieve net zero emissions goals.</i></p>
 
@@ -324,8 +324,8 @@ SDM 2023, Best Blue Sky Paper Award (runner-up)
 
     <div class="paper" id="sear">
     <a href="https://dl.acm.org/doi/pdf/10.1145/3557991.3567785">paper</a> |
-    <a href="javascript:toggleblock(&#39;sear_abs&#39;)">abstract</a> |
-    <a shape="rect" href="javascript:togglebib(&#39;sear&#39;)" class="togglebib">bibtex</a> 
+    <a href="#" onclick="toggleblock('sear_abs'); return false;">abstract</a> |
+    <a shape="rect" href="#" onclick="togglebib('sear'); return false;" class="togglebib">bibtex</a> 
 
      <p align="justify"> <i style="display: none;" id="sear_abs">Electric vehicles (EVs) have been identified as one of the necessary solutions to reduce the carbon footprint of transportation, a large source of greenhouse gas (GHG). As adoption of EVs and infrastructures to support them grow, formidable hurdles to achieving equitable economic growth and reliable transportation and energy system via effective management of EVs have been discovered. This opens major opportunities and challenges for spatial computing research. Equitable distribution of EV infrastructure in a broad region presents complicated spatial computing challenges with a great social impact. Spatial computing informed adoption and management of EVs will be essential to achieving the maximum carbon reduction through EVs along with a reliable transition to a renewable energy future. On the road, EV drivers may benefit from spatial computing to choose routes that take into account public fast-charging stations as well as energy needs of the route, such as speed, weather (e.g. air-conditioning, heating, and elevation changes). This paper presents open research questions of spatial computing related to EV management.</i></p>
 
@@ -354,8 +354,8 @@ SDM 2023, Best Blue Sky Paper Award (runner-up)
 
     <div class="paper" id="leap">
     <a href="https://dl.acm.org/doi/pdf/10.1145/3366423.3380235">paper</a> |
-    <a href="javascript:toggleblock(&#39;leap_abs&#39;)">abstract</a> |
-    <a shape="rect" href="javascript:togglebib(&#39;leap&#39;)" class="togglebib">bibtex</a> 
+    <a href="#" onclick="toggleblock('leap_abs'); return false;">abstract</a> |
+    <a shape="rect" href="#" onclick="togglebib('leap'); return false;" class="togglebib">bibtex</a> 
 
     <p align="justify"> <i style="display: none;" id="leap_abs">Public transports, such as subway lines and buses, offer affordable ride-sharing services and reduce the road network traffic. Extracting passengers’ preferences from their public transit choices is important to city planners but technically non-trivial. When traveling by taking public transits, passengers make sequences of transit choices, and their rewards are usually influenced by other passengers’ choices. This process can be modeled as a Markov Game (MG). In this paper, we make the first effort to model travelers’ preferences of making transit choices using MGs. Based on the discovery that passengers usually do not change their policies, we propose novel algorithms to extract reward functions from the observed deterministic equilibrium joint policy of all agents in a general-sum MG to infer travelers’ preferences. First, we assume we have the access to the entire joint policy. We characterize the set of all reward functions for which the given joint policy is a Nash equilibrium policy. In order to remove the degeneracy of the solution, we then attempt to pick reward functions so as to maximize the sum of the deviation between the the observed policy and the sub-optimal policy of each agent. This results in a skillfully solvable linear programming algorithm for the multi-agent inverse reinforcement learning (MA-IRL) problem. Then, we deal with the case where we have access to the equilibrium joint policy through a set of actual trajectories. We propose an iterative algorithm inspired by single-agent apprenticeship learning algorithms and the cyclic coordinate descent approach. We evaluate the proposed algorithms on both a simple Grid Game and a unique real-world dataset (from Shenzhen, China). Results show that when we have access to the full policy, our algorithm can efficiently recover most of the reward structure, especially the interaction of agents. In the case where we only have access to a set of sampled expert trajectories, our algorithm can provide an explanation of the expert trajectories. Measured with respect to the experts’ unknown reward function, the performance of the policy output by our algorithm is close to that of the expert policy.</i></p>
 
